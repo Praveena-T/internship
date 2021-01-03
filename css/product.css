@@ -1,0 +1,34 @@
+.bgproduct{
+    width:100%;
+    height:200px;
+    background: url('https://pixnio.com/free-images/objects/white-plastic-hanger-for-clothes-on-green-background.jpg');
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+  .bgimage h1 {
+    color:white;
+    text-shadow:2px 2px rgba(184, 14, 110, 0.075);
+  }
+.bgimage {
+    width:100%;
+    height:200px;
+    background: url('https://www.tagesspiegel.de/images/rack-of-fast-fashion-colorful-womens-sweaters-on-display-for-reselling-recycling-donation-reusing-or-welfare-for-second-life-sold-at-flea-market-outdoorsfoto-studio-grand-ouest-stock-adobe-com-fotolia/25456664/1-format43.jpg');
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+  .bgimage h5 {
+    color:white;
+    text-shadow:2px 2px rgba(184, 14, 110, 0.075);
+  }
+
+  .pchead{
+     font-family: 'Aclonica'; 
+  }
+

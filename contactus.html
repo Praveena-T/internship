@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+     <!-- Favicons -->
+     <link rel="icon" href="img\tab.png" type="image/png" />
+     <link rel="shortcut icon" href="img\tab.png" type="image/png" />
+
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/reg.css">
+     <link rel="stylesheet" href="css/contact.css">
+    <title>CodeNet</title>
+  </head>
+  <body>
+    
+        <nav class="navbar navbar-light bg-light pt-3 pb-3 justify-content-between">
+            <a class="navbar-brand"></a>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2 " type="text" placeholder="User Name" aria-label="Search">
+              <input class="form-control mr-sm-2" type="Password" placeholder="Password" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+            </form>
+          </nav>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#"><img src="img\codenet.png" width="30%"></a>      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
+          <form class="form-inline my-2 my-lg-0" >
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active mr-5 ml-5">
+                  <a class="nav-link text-warning font-weight-bold" href="middle.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mr-5 ml-5">
+                  <a class="nav-link text-warning font-weight-bold" href="product.html">Products</a>
+                </li>
+                <li class="nav-item mr-5 ml-5">
+                    <a class="nav-link text-warning font-weight-bold" href="contactus.html">Contact&nbsp;Us</a>
+                </li>
+                <li class="nav-item mr-5 ml-5">
+                    <a class="nav-link text-warning font-weight-bold" href="about.html">About&nbsp;Us</a>
+                </li>
+                <li class="nav-item mr-5 ml-5">
+                    <a class="nav-link text-warning font-weight-bold" href="registration.html">Registrataion</a>
+                </li>
+              </ul>
+          </form>
+        </div>
+      </nav>
+
+
+      <div class="container container1 mb-3" style="background-color: #030303;">
+        <h1 class="text-center pt-4 text-light font-weight-bold" style="background-color: rgb(13, 65, 13)">Contact Us Form</h1>
+        <form class=" border border-success m-3 pt-3 text-light text-center ml-5" >
+            <div>
+                <div class="font-weight-bold"><p>Available 24 x 7</p></div>
+                <button type="button" class="btn btn-success mt- 5 mb-2" data-toggle="modal" data-target="#myModal">
+                    Click Me
+                </button>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+            <div class="modal-header">
+            <h4 class="modal-title font-weight-bold text-success">HELLO!</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body text-success font-italic font-weight-bold">
+          <p>We always welcome your questions.</p>
+          <p>Feel free to clarify your doubts. We will response as soon as possible</p>
+        
+          <button type="button" class="btn btn-outline-success font-weight-bold " data-dismiss="modal">Got it!!</button>
+        </div>
+  
+         </div>
+        </div>
+    </div>
+    <div class="modal fade"></div>
+    <div class="modal"></div>
+    </div>
+            <div class="form-row font-weight-bold ml-5">
+              <div class="col-md-4 mb-3 text-center mt-3 mr-5" style="background-color: rgb(4, 36, 4)">
+                <label for="validationServer01">Name</label>
+                <input type="text" class="form-control is-valid text-dark" style="background-color: rgb(213, 255, 213)" id="" placeholder="" value="" required>
+              </div>
+              <div class="col-md-6 mb-3 text-center mt-3 ml-4" style="background-color: rgb(4, 36, 4)">
+                <label for="validationServer01">Email</label>
+                <input type="email" class="form-control is-valid" style="background-color: rgb(213, 255, 213)" id="" placeholder="" value="" required>
+              </div>
+            </div>
+            <div class="form-row font-weight-bold ml-5">
+                <div class="col-md-11 mb-3" style="background-color: rgb(4, 36, 4)"">
+                  <label for="validationServer02" >Message</label>
+                  <textarea class="form-control is-valid" style="background-color: rgb(213, 255, 213)" row="30" id="" placeholder="" value=" " required></textarea>
+                </div>
+              </div>
+            <div class="form-group">
+            <button class="btn btn-outline-light font-weight-bold" id="send-message-btn" type="submit"> Send Message</button>
+            </div>
+          </form>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

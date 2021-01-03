@@ -1,0 +1,31 @@
+#indexBody{
+margin-left: 15pt;
+margin-right: 15pt;
+padding: 0;
+}
+
+.nav{
+   
+    background-color: green;
+    font-weight: 1, 2;
+    margin: auto;
+    
+}
+
+#f1{
+    margin-top: -42pt;
+    margin-left: 75%;
+    font-weight: bold;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: whitesmoke;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: rgb(152, 250, 152);
+}
+
+ul.nav li.active a {
+    color: black;
+}
