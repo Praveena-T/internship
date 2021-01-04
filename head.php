@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
      <!-- Favicons -->
-     <link rel="icon" href="img\tab.png" type="image/png" />
-     <link rel="shortcut icon" href="img\tab.png" type="image/png" />
+     <link rel="icon" href="img\emblam-logo.png" type="image/png" />
+     <link rel="shortcut icon" href="img\emblam-logo.png" type="image/png" />
 
      <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/reg.css">

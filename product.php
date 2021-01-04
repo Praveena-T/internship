@@ -45,7 +45,6 @@
 
 
 
-
 <section class="bgproduct">
   <div class="container-fluid">
     <div class="row">
@@ -57,70 +56,69 @@
   </div>
 </section>
        
+<div>
+<img class="card-img-top center" src="img\ProductM11.PNG" alt="Card image cap"  style="width:150pt ">
+</div>
 
-
-
-<div class="card-deck mt-3 mb-3 ">
+<center>
+<div class="card-deck mb-3 " style="width:90%;margin-top:10%;" >
   <div class="card border-none ">
     <img class="card-img-top" src="img\clothes.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title text-dark font-weight-normal text-center">Teenages</h5>
       <div class="form-group  ">
-        <button type="submit" class="btn btn-dark font-weight-normal btn-block">SHOW</button>
+        <button type="submit" class="btn btn-dark font-weight-normal btn-block">Teenages Products</button>
     </div>
     </div>
   </div>
   <div class="card border-none">
     <img class="card-img-top" src="img\p_card\woman.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title text-dark font-weight-normal text-center">Woman</h5>
+     
       <div class="form-group">
-        <button type="submit" class="btn btn-dark font-weight-normal  btn-block">SHOW</button>
+        <button type="submit" class="btn btn-dark font-weight-normal  btn-block">Women Products</button>
     </div>
     </div>
   </div>
   <div class="card border-none ">
-    <img class="card-img-top" src="img\p_card\pregnant.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title text-dark font-weight-normal text-center">Prenant Women</h5>     
+    <img class="card-img-top" src="img\p_card\pregnant mom.jpg" alt="Card image cap">
+    <div class="card-body">    
       <div class="form-group  ">
-        <button type="submit" class="btn btn-dark font-weight-normal btn-block">SHOW</button>
+        <button type="submit" class="btn btn-dark font-weight-normal btn-block">Pregnant Women Products</button>
     </div>
     </div>
   </div>
 </div>
+</center>
 
 
-<div class="card-deck mt-3 mb-3 ">
+<center>
+<div class="card-deck mt-3 mb-3 pt-4" style="width:90%;padding-bottom:10%;">
   <div class="card border-none ">
-    <img class="card-img-top" src="img\clothes.jpg" alt="Card image cap">
+    <img class="card-img-top" src="img\p_card\men1.jpg" alt="Card image cap" >
     <div class="card-body">
-      <h5 class="card-title text-dark font-weight-normal text-center">Men</h5>
-      <div class="form-group  ">
-        <button type="submit" class="btn btn-dark font-weight-normal btn-block">SHOW</button>
+      <div class="form-group mb-0 pb-0 ">
+        <button type="submit" class="btn btn-dark font-weight-normal btn-block">Men Products</button>
     </div>
     </div>
   </div>
   <div class="card border-none">
-    <img class="card-img-top" src="img\staff.jpg" alt="Card image cap">
+    <img class="card-img-top" src="img\p_card\kids1.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title text-dark font-weight-normal text-center">Kids</h5>
       <div class="form-group  ">
-        <button type="submit" class="btn btn-dark font-weight-normal  btn-block">SHOW</button>
+        <button type="submit" class="btn btn-dark font-weight-normal  btn-block">Kids Products</button>
     </div>
     </div>
   </div>
   <div class="card border-none ">
-    <img class="card-img-top" src="img\employees.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title text-dark font-weight-normal text-center">Wedding</h5>     
+    <img class="card-img-top" src="img\p_card\wedd.jpg" alt="Card image cap">
+    <div class="card-body">  
       <div class="form-group  ">
-        <button type="submit" class="btn btn-dark font-weight-normal btn-block">SHOW</button>
+        <button type="submit" class="btn btn-dark font-weight-normal btn-block">Wedding Products</button>
     </div>
     </div>
   </div>
 </div>
-
+</center>
 
 
 <section class="bgimage">
@@ -134,28 +132,7 @@
   More Details
 </button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title  text-dark " id="exampleModalLongTitle">Hello</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body text-dark text-light text-center">
-        Welcome to CodeNet Website.
 
-        We are on o the leading company in Sri Lanka with promising products in the garment industry.
-        Never dissapointes our customer when delivering the product according to their preference. We provide a varietty of clothes from different cultures.
-      </div>
-      <div class="mb-4">
-        <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
       </div>
     </div>
   </div>

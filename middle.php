@@ -37,8 +37,14 @@
     <div class="carousel-item">
     <img src="img\slide\slide_3.jpg" alt="...">
     <div class="carousel-caption d-none d-md-block">
-    <h5>...</h5>
-    <p>...</p>
+    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="mt-3 mb-5"><span>Products <img src="img/ProductM2.png" aria-label="CodeNet (Pvt) Ltd" width="225"
+                                        height="135"></span>
+                            </h1>
+                            <p><a class="btn btn-success mt-5" href="#" role="button">SHOW PRODUCTS</a></p>
+                        </div>
+                    </div>
   </div>
 </div>
   </div>
@@ -46,18 +52,20 @@
     <span class="carousel-control-prev-icon bg-white " style="border-radius:50%" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">3
     <span class="carousel-control-next-icon bg-white " style="border-radius:50%" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
+<center>
 
-<div class="card-deck mt-3 mb-3" style="width:95%;">
+<h1 class="text-muted   bt-5 " style="margin-top:8%; ">Our Product</h1>
+<div class="card-deck mt-3" style="width:85%; margin-bottom:15%;">
   <div class="card border-success ">
     <img class="card-img-top" src="img\clothes.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title text-success font-weight-normal center">Products</h5>
-      <p class="card-text font-weight-light">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h4 class="card-title text-success font-weight-normal center">Products</h4>
+      <p class="card-text font-weight-light">This is a longer card with supporting text below as a natural lead-in to additional content. </p>
       <div class="form-group  ">
         <button type="submit" class="btn btn-success font-weight-normal btn-block">SHOW ME</button>
     </div>
@@ -66,8 +74,8 @@
   <div class="card border-success">
     <img class="card-img-top" src="img\staff.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title text-success font-weight-normal">Employees</h5>
-      <p class="card-text font-weight-light">Our company has a team of skilled employees with lead us to success.</p>
+      <h4 class="card-title text-success font-weight-normal">Employees</h4>
+      <p class="card-text font-weight-light">Our company has a team of skilled employees with lead us to success. </p>
       <div class="form-group  ">
         <button type="submit" class="btn btn-success font-weight-normal  btn-block">VIEW DETAILS</button>
     </div>
@@ -76,7 +84,7 @@
   <div class="card border-success ">
     <img class="card-img-top" src="img\employees.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title text-success font-weight-normal"> Internship Opportunities</h5>
+      <h4 class="card-title text-success font-weight-normal"> Internship Opportunities</h4>
       <p class="card-text font-weight-light">A great opportunities are available to gain experience for a paid intership.</p>
       
       <div class="form-group  ">
@@ -86,6 +94,7 @@
   </div>
 </div>
 
+</center>
       <?php
       include_once 'footer.php';
      ?>

@@ -15,6 +15,7 @@
                         
                     </div>
                     <div class="col-sm-3 text-left">
+                    <img class="card-img-top" src="img\codenet.PNG" alt="Card image cap">
                         <h1 class="pt-5 text-center font-weight-bold display-3 text-white">About us</h1>
                         <p class="text-center font-weight-normal text-light defualt-font-family">Home &nbsp;&nbsp;/&nbsp; &nbsp;About us</p>
                     </div>
